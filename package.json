@@ -1,0 +1,25 @@
+{
+  "name": "ejercicios_de_programacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "dev": "ts-node src/index.ts",
+    "run-ts": "ts-node src/runner.ts",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MarcosRehtanz",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^10.4.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2"
+  }
+}
